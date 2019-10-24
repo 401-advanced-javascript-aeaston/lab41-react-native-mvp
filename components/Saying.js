@@ -22,13 +22,12 @@ export default class Saying extends React.Component {
   }
 
   render() {
-      // const { phrase } = this.state
     return (
       <View style={styles.container}>
         <Text style={styles.paragraph}>
           {this.state.phrase}
         </Text>
-        <Button 
+        <Button styles={styles.button}
           onPress={this.handleWordChange}
           title="Generate Compliment"
           color="purple"
@@ -52,8 +51,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
   },
-  logo: {
-    height: 128,
-    width: 128,
+  button: {
+ 
   }
 });
