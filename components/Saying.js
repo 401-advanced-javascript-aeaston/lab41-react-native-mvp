@@ -9,7 +9,7 @@ export default class Saying extends React.Component {
     this.state = {phrase: ''};
   }
 
-  arrPhrase = ['I love you.','Nice shirt.','That is some elegant code you wrote.','You make good decisions.', 'You deserve to take good care of you.','You have a cute butt.','You have made the right life choices.', 'Your hair looks great today.', 'The world is a better place with you in it.', 'You have great taste in music.', 'You get better and better at guitar every day.', 'You are important to me.', 'You make my world beautiful.', 'You make a difference', 'Your shoes are so interesting yet practical.']
+  arrPhrase = ['I love you.','Nice shirt.','That is some elegant code you wrote.','You make good decisions.', 'You deserve to take good care of you.','You have a cute butt.','You have made the right life choices.', 'Your hair looks great today.', 'The world is a better place with you in it.', 'You have great taste in music.', 'You get better and better at guitar every day.', 'You are important to me.', 'You make my world beautiful.', 'You make a difference.', 'Your shoes are so interesting yet practical.', 'You smell nice.']
 
   randomIndex() {
     return Math.floor(Math.random() * this.arrPhrase.length)
